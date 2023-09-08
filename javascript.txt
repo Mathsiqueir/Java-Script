@@ -1,0 +1,27 @@
+Java Script faz tudo, qualquer tipo de script e funções que tem nos navegadores do computador.
+
+
+Cliente                      x                     Servidor
+
+
+cliente, somos nós e o servidor seria no caso o YouTube, que precisamos de dados de um servidor e através do URl, somos levados para onde desejamos 
+1) HTML                       2) CSS                      3) JavaScript
+4) PHP                         5) JQuery                   6) MySQL/MariaDB
+7) Python                      8) NodeJs                   9) MongoDB
+```
+3 tecnologias para criar um site
+
+DIFERENÇA ENTRE JAVA E JAVA SCRIPT
+
+evolução do JS 
+- 01: criação da linguagem (Netscape)
+- 02: implementação na internet explorer(Microsoft)
+- 03: adoção pelo google chrome
+- 04: padronização em junho de 2009 pela ECMAscript standardization committee
+- 05: atualizações no padrão ES6 - ECMAScript 2015
+- 06: atualizações no padrão ES7 - ECMAScript 2016
+- 07: atualizações no padrão ES8 - ECMAScript 2017
+- 08: atualizações no padrão ES9 - ECMAScript 2018
+- 09: atualizações no padrão ES10 - ECMAScript 2019
+- 10: atualizações no padrão ES11 - ECMAScript 2020
+- 11: atualizações no padrão ES12 - ECMAScript 2021
