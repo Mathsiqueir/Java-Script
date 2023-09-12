@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Criando seu primeiro Script</title>
     <style>
         body{
@@ -18,15 +19,17 @@
     <h1>Olá, Mundo!</h1> 
     <p>Já me livrei da maldição!</p>
     <script>
-        var n2 = Number.parseInt(window.prompt('Digite outro número:'));
-        var n1 = Number.parseInt(window.prompt('digite um número:'));
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('digite outro número: '))
         var s = n1 + n2
-        alert('A soma dos valores é ' + s.toString);
-        /* numero -> string
-        String(n)
-        n.toString()
+        window.alert(s)
         
-        */
+        
     </script>
+    /* numero -> string
+    String(n)
+    n.toString()
+    
+    */
 </body>
 </html>
