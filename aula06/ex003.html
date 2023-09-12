@@ -15,14 +15,18 @@
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> 
     <p>Já me livrei da maldição!</p>
     <script>
-        window.alert('Minha primeira mensagem!');
-        /* alert('Minha primeira mensagem!')    */
-        window.confirm('você está gostando de JavaScript')
-        window.prompt('Qual é o seu nome?')
+        var n2 = Number.parseInt(window.prompt('Digite outro número:'));
+        var n1 = Number.parseInt(window.prompt('digite um número:'));
+        var s = n1 + n2
+        alert('A soma dos valores é ' + s.toString);
+        /* numero -> string
+        String(n)
+        n.toString()
         
+        */
     </script>
 </body>
 </html>

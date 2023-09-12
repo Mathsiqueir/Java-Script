@@ -1,0 +1,103 @@
+Tipos de dados e Variáveis
+
+Onde fica guardado os nomes digitados do prompt?
+eles se perdem, até você aprender a guardar dados.
+
+lembre-se de comentar nos seus codígos para lembrar o que você fez, SEMPRE!!!
+para comentar use
+// uma unica linha
+
+/**/ mais de uma linha 
+
+
+
+  VARIAVEIS
+organize seus espaços 
+a1              c1
+a2              c2
+a3              c3
+para carros     para caminhões
+
+vaga a1         =       carro1
+            recebe
+vaga a1 = carro2
+o programa retira o carro1
+
+para retirar todos os carros 
+vaga a1 = NULL
+
+
+No JavaScript moderno, além de utilizar a palavra VAR, também podemos utilizar LET
+
+existe Variáveis de tamanhos diferentes 
+as strings e elas estão entre aspas apostro e aspas simples
+
+VAR s1 = "JavaScript"
+VAR s2 = 'Matheus'
+var s3 = `cursoemvideo`
+
+os IDENTIFICADORES nome dado as Variáveis
+
+podem começar com letra, $ ou _
+
+não podem começar com NUMEROS
+
+é possível usar letras e NUMEROS
+
+é possível usar acentos e simbolos
+
+nao podem conter espaõs
+
+nao podem palavras reservadas
+
+dicas para criar IDENTIFICADORES
+
+Maius e Minus fazem diferença
+
+tente escolher nomes coerentes para as Variáveis
+
+5 18 -12 números inteiros
+0.5 -15.9 números float
+para o JavaScript é tudo number
+
+google 
+JavaScript
+Matheus
+para o JavaScript são strings
+
+
+True  false
+para o JavaScript são boolean
+
+Data Types
+number
+  Infinity
+  NaN
+
+string
+boolean
+NULL
+undefined
+object
+  Array
+function
+
+typeof para saber que tipo de DataType você está utilizando
+
+> typeof s
+'string'
+> typeof n
+'number'
+> typeof {}
+'object'
+> typeof []
+'object'
+typeof function()
+'function'
+typeof NULL
+'object'
+typeof undefined
+'undefined'
+
+
+
