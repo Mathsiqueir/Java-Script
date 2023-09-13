@@ -21,15 +21,18 @@
     <script>
         var n1 = Number(window.prompt('Digite um número: '))
         var n2 = Number(window.prompt('digite outro número: '))
+        var n3 = parseFloat(window.prompt('Digite um outro numero: '))
+        var n4 = Number.parseInt(window.prompt('digite um último número: '))
         var s = n1 + n2
-        window.alert(s)
+        var s2 = n3 * n4
+        window.alert(`A entre ${n1} e ${n2} é ${s}`) //template string
         
         
     </script>
-    /* numero -> string
+     numero -> string
     String(n)
     n.toString()
+    window.alert('A soma dos valores é: '+ s.toString() + 'a multiplicação dos ultimos numeros é:' + String(s2))
     
-    */
 </body>
 </html>

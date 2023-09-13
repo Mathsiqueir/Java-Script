@@ -1,0 +1,120 @@
+OPERADORES
+Artiméticos
+atribuição
+relacionais
+lógicos
+ternário
+
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division REST) 3/2 -> 1
+++	Increment 1++ = 2
+--	Decrement
+
+
+PARENTESES
+(5+3)/2
+
+precedência
+()
+**
+* / %
++-
+
+atribuição simples
+
+var a = 5 +3 -> a variável a receber 5 + 3  8
+var b = a % 5  a variável b receber a % 5   3
+var c = 5 * b ** 2 -> a variável
+var d 
+var e 
+var f
+
+auto-atribuição
+var n =3
+n = n + 4 ou n+= 4
+n == 7
+
+Incremento
+var x = 5
+x= x +1 x+=1 ou x++
+>6
+ 
+relacionais
+<
+>
+<=
+>=
+==
+!=
+> 5>2
+true
+> 7<4
+false
+> 8>=8
+true
+> 9<=7
+false
+> 4!=4
+false
+> 5==5
+true
+
+
+IDENTIDADE
+
+5 == 5 true
+5 == '5' TRUE 
+java script não testa tipos, eles tem a mesma grandeza
+
+=== operador de igualdade restrita
+5 === '5' FALSE
+5 === 5 TRUE
+
+lógicos
+! Negação
+&& Conjunção pega a parte que elas tem em igual
+|| disjunção pega as duas parte
+
+! Negação
+
+true -> false
+false -> true
+
+&& Conjunção e
+
+true    true      true
+true    false     false
+false   true      false
+false   false     false
+
+|| disjunção ou
+
+true    true      true
+true    false     true
+false   true      true
+false   false     false
+
+idade >= 15 idade <= 17        // a idade está entre 15 e 17?
+estado == 'RJ' || estado 'SP' // o estado é RJ ou SP?
+salário > 1500 && sexo !='M' //o salário é acima de 1500 e não é homem?
+
+
+
+ternário
+? :
+
+teste ? true : false
+média >= 7.0 ? aprovado : reprovado
+
+> var x = 8
+undefined
+> var res = x % 2 == 0 ? 5:9
+undefined
+> res
+5
+
