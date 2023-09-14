@@ -1,0 +1,33 @@
+O que é DOM?
+Document
+Object
+Model
+
+conjunto de objetos dentro do seu navegador que vai dar acesso a componentes internos do seu navegador
+
+Árvor DOM
+
+window- tudo está dentro disso
+dentro do window
+    location - URL
+    Document - dentro do Document tem o HTML
+    history - de onde veio para onde vai
+
+HTML - 
+    head - meta title
+    body - h1 p div 
+
+
+SELECIONANDO
+    por Marca - 
+        getElementsByTagName() generico puxa todas as tags, 
+        innerText - testo que está dentro
+    por ID-
+        getElementsByID()
+    por Nome
+        getElementsByName()
+    por Classe
+        getElementsByClassName()
+    por Seletor - forma mais recomendada
+    querySelector()
+    querySelectorAll()

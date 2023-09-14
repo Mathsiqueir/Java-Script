@@ -1,0 +1,18 @@
+Eventos DOM
+
+div
+mouseenter
+mousemove
+mousedown - ao clicar
+mouseup- soltar
+click
+mouseout
+
+
+funções
+
+function ação(param) {
+bloco - quando eu clicar ou entrar em um evento
+}
+
+como detectar ERRos?

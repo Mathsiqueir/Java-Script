@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(68, 128, 199);
+            color: white;
+            font: normal 18px arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim!</div>
+    <script>
+        
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        /*
+        window.document.write('está escrito assim: ' + p1.innerHTML) //não puxou o negrito então coloque HTML invés de TEXT
+        p1.style.color = 'blue'
+        corpo.style.backgroundColor = '#'
+        
+        var d1 = document.getElementById('msg').style.backgroundColor = 'blue' //ou d.style.background = 'green'
+        d1 = 'Estou aguardando...' */
+
+        var d1 = window.document.querySelector('div#msg').style.background = 'red'
+        
+       // d1.inner = 'estou aguardando' não funciona
+        document.getElementById('msg').innerText = 'Olá'
+        
+        
+        
+        
+
+    </script>
+</body>
+</html>
