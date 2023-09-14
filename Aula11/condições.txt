@@ -1,0 +1,30 @@
+CONDIÇÕES EM JS
+    
+    sequencias
+    var n = 3
+    n ++ 
+    windo.alert(n)
+
+CONDIÇÕES uma hora você quer fazer algum comando outra hora você não quer
+
+    desvio condicional
+     começa a aparecer bifurcações, que se encontram novamente para chegar no fim
+
+if{condição}{
+    TRUE
+}else{
+    FALSE
+}
+
+Tipos de condição
+condição simples
+    if (condição){
+    true
+    }
+
+condição composta
+    if{condição}{
+        TRUE
+    }else{
+        FALSE
+    }
