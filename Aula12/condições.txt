@@ -9,9 +9,18 @@ Condições aninhadas
             }
 
 condição multipiplas
-if (condicao 1 && condicao 2 || condicao 3 ){
-    bloco de comandos
-    }
-    */
-    }
+    switch(expressao){
+        case valor:
+            bloco de execução;
+            break
+        case valor1:
+            bloco de execução;
+            break
+        case valor2:
+            bloco de execução;
+            break
+        default:
+            break
+        }
+    } o BREAK é o comando mais necessário nesse código para fluidez
     
