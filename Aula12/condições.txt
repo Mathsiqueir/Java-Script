@@ -1,0 +1,17 @@
+Condições aninhadas
+    if(cond1) {
+            bloco1
+        }else{
+            if(cond2){
+                bloco2
+            } else{
+                bloco3
+            }
+
+condição multipiplas
+if (condicao 1 && condicao 2 || condicao 3 ){
+    bloco de comandos
+    }
+    */
+    }
+    
