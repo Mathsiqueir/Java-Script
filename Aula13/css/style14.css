@@ -15,15 +15,12 @@ section{
     background: white;
     border-radius: 10px;
     height: 300px; /* por enquanto */
-    width: 80%;
+    width: 500px;
     margin: auto;
     margin-top: 10%;
     box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.459);
 }
-div{
-    pa
-    
-}
+
 footer > p{
     text-align: center;
     font: bolder 2em arial italic ;
