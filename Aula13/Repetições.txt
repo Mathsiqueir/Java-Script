@@ -1,0 +1,34 @@
+Repetições PARTE 1
+Function ComerPizza() {
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+utilizamo sequencia que vamos colocando um passo depois do outro, mas as vezes tem desvios, que são as condições que criam duas possibilidades true or false
+Ex. pizza de calabresa, que eu não como
+
+Repetições ou lanços
+que começam como condições, só que o comportamento é diferente.
+por exemplo se a expressão for verdadeira, desde partir para a próxima ele retorna para a anterior e a repete e apartir do momento que o lanço for falso ele volta a seguir o fluxo normal.
+
+COMO ESCREVER - while(condição)
+
+    Function ComerPizza() {
+        while(temFatia()){
+            comerFatia()
+        }
+    } //repete o while até não ter mais fatias
+
+
+mas tem como você primeiro executar o bloco e depois testar
+
+do{
+
+} while(condição) // e quando for falsa ele sai do bloco!
+
+

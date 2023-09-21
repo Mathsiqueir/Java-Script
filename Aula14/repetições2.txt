@@ -1,0 +1,6 @@
+ESTRUTURA DE REPETIÇÃO COM VARIAVEL DE CONTROLE
+INICIALIZAÇÃO -> TESTE logico -> exec -> teste logico e faz o incremento. e faz o loop até dar em falso
+
+for(inicio; teste; incremento){
+    bloco() //até for falso ele executará esse bloco
+}
