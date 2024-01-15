@@ -1,0 +1,12 @@
+uma maneira mais simples de gerenciar as vagas 
+
+todas vagas se chamaram 
+vaga A cada vaga tem um índice
+vaga a = []
+
+vaga a = [sedan, coupe, suv]
+
+0 - sedan
+1 - coupe
+2 - suv
+
